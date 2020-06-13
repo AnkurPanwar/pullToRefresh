@@ -15,6 +15,8 @@
 		9229ACE4248EA07500421F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9229ACE2248EA07500421F28 /* LaunchScreen.storyboard */; };
 		9229ACEF248EA07500421F28 /* PullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229ACEE248EA07500421F28 /* PullToRefreshTests.swift */; };
 		9229ACFA248EA07500421F28 /* PullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229ACF9248EA07500421F28 /* PullToRefreshUITests.swift */; };
+		9229AD08248EA12E00421F28 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AD07248EA12E00421F28 /* DataModel.swift */; };
+		9229AD0C248EAB8C00421F28 /* RandomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AD0B248EAB8C00421F28 /* RandomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9229ACF5248EA07500421F28 /* PullToRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullToRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9229ACF9248EA07500421F28 /* PullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshUITests.swift; sourceTree = "<group>"; };
 		9229ACFB248EA07500421F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9229AD07248EA12E00421F28 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		9229AD0B248EAB8C00421F28 /* RandomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				9229ACD7248EA07400421F28 /* AppDelegate.swift */,
 				9229ACD9248EA07400421F28 /* SceneDelegate.swift */,
 				9229ACDB248EA07400421F28 /* ViewController.swift */,
+				9229AD0B248EAB8C00421F28 /* RandomCell.swift */,
+				9229AD07248EA12E00421F28 /* DataModel.swift */,
 				9229ACDD248EA07400421F28 /* Main.storyboard */,
 				9229ACE0248EA07500421F28 /* Assets.xcassets */,
 				9229ACE2248EA07500421F28 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9229ACDC248EA07400421F28 /* ViewController.swift in Sources */,
+				9229AD08248EA12E00421F28 /* DataModel.swift in Sources */,
+				9229AD0C248EAB8C00421F28 /* RandomCell.swift in Sources */,
 				9229ACD8248EA07400421F28 /* AppDelegate.swift in Sources */,
 				9229ACDA248EA07400421F28 /* SceneDelegate.swift in Sources */,
 			);
